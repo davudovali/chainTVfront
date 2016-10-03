@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html style=''>
+<head>
+<script src='socket.io.js'></script>
+<script src='adapter.js'></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="mainContainer">
+        <video style="display: none" id="remoteVideo" autoplay="true" height="1080" width="720"></video>
+        <div id="depth">0</div>
+        <div id="buttons">
+            <input id="roomId" type="text"/>
+            <button id="createRoom" disabled="true">Create room</button>
+            <button id="joinRoom" disabled="true">Join room</button>
+        </div>
+        <script src='index.js'></script>
+    </div>
+</body>
+</html>

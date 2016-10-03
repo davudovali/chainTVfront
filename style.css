@@ -1,0 +1,17 @@
+body {
+    height: 320px;
+    width: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15%;
+}
+ #depth {
+    position: absolute;
+    font-size: 3em;
+    top: 15%;
+    height: 0;
+    color: white;
+    margin-left: 33px;
+ }
